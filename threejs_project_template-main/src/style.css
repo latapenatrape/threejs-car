@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 200%;
+    overflow-x: hidden;
+}
+
+.canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    text-align: center;
+    z-index: 1;
+}
